@@ -32,6 +32,8 @@ button3.addEventListener('click', (event) => {
       case 1:
         if (char == 'a') {
           return char === 'a' ? 2 : 3;
+        } else if (char == 'E') {
+          return char === 'E' ? 3 : 3;
         }
       case 2:
         if (char == 'a') {
